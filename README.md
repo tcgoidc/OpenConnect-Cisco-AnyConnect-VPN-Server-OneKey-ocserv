@@ -4,11 +4,14 @@ Buggy script for configuring OpenConnect (ocserv) protocol on the server easily 
 
 **2023 JAN UPDATE**: We added a help instruction for Docker custom installation so everyone can fully customized ocserv configuration for him/her self like port number, custom header etc.
 
+
+*2026 JAN UPDATE**: Upgraded alpine:3.23.2 and OCSERV_VERSION 1.4.0
+
 ## Docker Installation
 1. Install Docker
 2. Build docker image
 ```bash
-docker build -t ocserv https://github.com/iw4p/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv.git
+docker build -t ocserv https://github.com/tcgoidc/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv.git
 ```
 
 3. Run docker container

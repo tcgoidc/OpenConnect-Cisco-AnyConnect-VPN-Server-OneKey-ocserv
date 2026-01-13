@@ -1,6 +1,6 @@
-FROM alpine:3.13
+FROM alpine:3.23.2
 
-ENV OCSERV_VERSION 1.1.2
+ENV OCSERV_VERSION 1.4.0
 ENV CA_CN SAMPLE CA
 ENV CA_ORG Big Corp
 ENV SRV_CN SAMPLE server
@@ -62,6 +62,8 @@ RUN set -ex \
     && touch /etc/ocserv/ocpasswd \
     && apk del .build-dependencies \
     && apk add --no-cache gnutls linux-pam krb5-libs libtasn1 oath-toolkit-liboath nettle libev protobuf-c musl lz4-libs libseccomp readline libnl3 iptables \
+    && apk update \
+    && apk upgrade -f \
     && rm -rf /var/cache/apk/*
 WORKDIR /etc/ocserv
 COPY ocserv.conf /etc/ocserv/ocserv.conf
