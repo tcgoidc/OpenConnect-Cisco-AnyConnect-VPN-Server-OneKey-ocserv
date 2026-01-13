@@ -54,7 +54,7 @@ Tested on ubuntu 18.04 and 16.04.
 
 Download and saving script on your server:
 ```bash
-curl -O https://raw.githubusercontent.com/iw4p/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv/master/ocserv-install.sh
+curl -O https://raw.githubusercontent.com/tcgoidc/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv/master/ocserv-install.sh
 ```
 
 Making script executable
@@ -93,7 +93,7 @@ And one more thing, contributions are welcome.
 ## How to customize the configuration?
 In docker way, at the beginning you have to clone the repo:
 ```sh
-git clone https://github.com/iw4p/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv.git
+git clone https://github.com/tcgoidc/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv.git
 ```
 
 cd to the directory
@@ -119,7 +119,7 @@ Feel free to submit issues and enhancement requests or contact me via [vida.page
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=iw4p/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv&type=Date)](https://star-history.com/#iw4p/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=tcgoidc/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv&type=Date)](https://star-history.com/#tcgoidc/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv&Date)
 
 
 ## More
